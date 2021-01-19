@@ -4,6 +4,9 @@ module.exports = {
   purge: ['**/*.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily:{
+      'sans': ["Poppins","ui-sans-serif", "system-ui", "-apple-system", "BlinkMacSystemFont", "Segoe UI",  "Helvetica Neue", "Arial", "Noto Sans", "sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"]
+    },
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
