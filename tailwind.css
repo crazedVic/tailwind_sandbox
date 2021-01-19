@@ -2,7 +2,11 @@
 @tailwind components;
 
 .btn {
-  @apply px-4 py-2 bg-blue-600 text-white rounded;
+  @apply px-4 py-2 bg-black text-white rounded shadow-lg;
 }
 
 @tailwind utilities;
+
+.mylabel {
+  @apply px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6;
+}
